@@ -33,7 +33,7 @@ const Education = [
     },
     {
         institucion:'Universidad de Antioquia',
-        cargo:'En curso',
+        cargo:'Finalizado',
         anio:'Jul 2024- Dic 2024',
         certificacion:'Monitor de desarrollo web',
         descripcion:'Como monitor de desarrollo web, he guiado y apoyado a estudiantes en su proceso de aprendizaje de tecnologías clave como HTML, CSS, JavaScript y frameworks como React.'

@@ -4,7 +4,7 @@ import React from 'react'
 const index = () => {
   return (
     <div>
-        <Text text="2025 Todos los derechos reservados Esteban Castaño"/>
+        <Text text="2025 Esteban Castaño"/>
     </div>
   )
 }

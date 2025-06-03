@@ -1,8 +1,8 @@
 import { TextSecondary, TitleQuaternary } from "@/components/atoms/titles"
 
-function PortfolioCard({ url, imagen, titulo, descripcion }: { url: string, imagen: string, titulo: string, descripcion: string }) {
+function PortfolioCard({ urlDeploy, urlRepo, imagen, titulo, descripcion }: { urlDeploy: string, urlRepo: string, imagen: string, titulo: string, descripcion: string }) {
     return (
-        <div className='w-[310px] h-auto bg-white rounded-lg shadow-md cursor-pointer hover:scale-110 hover:border-textPrimary hover:border-4 hover:duration-200 hover:ease-out duration-200'>
+        <div className='w-full h-full bg-white rounded-lg shadow-md cursor-pointer hover:scale-110 hover:border-textPrimary hover:border-4 hover:duration-200 hover:ease-out duration-200'>
             <div className='mb-4'>
                 <img src={imagen} />
             </div>
@@ -13,9 +13,15 @@ function PortfolioCard({ url, imagen, titulo, descripcion }: { url: string, imag
                 <div className='mb-4'>
                     <TextSecondary text={descripcion} />
                 </div>
-                <div>
-                    <a href={url} target="_blank" rel="noopener noreferrer" className='text-textPrimary hover:underline'>Leer más...</a>
+                <div className='flex flex-col gap-2'>
+                    <div>
+                        <a href={urlDeploy} target="_blank" rel="noopener noreferrer" className='text-textPrimary hover:underline'>Despliegue</a>
+                    </div>
+                    <div>
+                        <a href={urlRepo} target="_blank" rel="noopener noreferrer" className='text-textPrimary hover:underline'>Repositorio</a>
+                    </div>
                 </div>
+
             </div>
         </div>
     )

@@ -10,7 +10,7 @@ function MenuLeft() {
     return (
         <div className="flex flex-col p-6 h-screen overflow-y-auto scrollbar-hide">
             <div>
-                <div>
+                <div className='flex flex-col items-center gap-4 mb-6'>
                     <div>
                         <ProfileLeft
                             src='/logos/profile.png'
@@ -21,11 +21,12 @@ function MenuLeft() {
                         <TitleQuaternary title='Esteban Castaño' />
                     </div>
                     <div>
-                        <TextSecondary text='Full-Stack Developer' />
+                        <TextSecondary text='FullStack Developer' />
                     </div>
-                    <div className='text-center'>
-                        <Separator />
-                    </div>
+
+                </div>
+                <div >
+                    <Separator />
                 </div>
                 <div>
                     <div>
@@ -50,15 +51,15 @@ function MenuLeft() {
                 </div>
                 <div>
                     <div>
-                    <ProgrammingSection/>
+                        <ProgrammingSection />
                     </div>
                     <div>
-                    <Separator />
+                        <Separator />
                     </div>
                 </div>
                 <div>
                     <div>
-                    <SkillsSection/>
+                        <SkillsSection />
                     </div>
                 </div>
             </div>

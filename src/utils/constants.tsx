@@ -60,10 +60,25 @@ const Languages= [
 
 const Portafolio=[
     {
-        url:'https://caribe-demo-landingpage.onrender.com/',
-        imagen:'/logos/caribe_landing_page.png',
-        titulo:'Caribe Landing Page',
-        descripcion:'Página desarrollada con Astro.js y TailwindCSS'
+        urlDeploy:'https://walkyshoes.vercel.app/',
+        urlRepo:'https://github.com/estebancastano/walky',
+        imagen:'/logos/walky.png',
+        titulo:'Walky',
+        descripcion:'Landing page desarrollada con Astro.js y TailwindCSS'
+    },
+    {
+        urlDeploy:'https://appamigosecreto.vercel.app/',
+        urlRepo:'https://github.com/estebancastano/amigo-secreto',
+        imagen:'/logos/amigo_secreto.png',
+        titulo:'Amigo Secreto',
+        descripcion:'Aplicación web para realizar sorteos de amigo secreto, desarrollada con HTML, CSS y JavaScript'
+    },
+    {
+        urlDeploy:'#',
+        urlRepo:'https://github.com/estebancastano/calendario-organizador-react',
+        imagen:'/logos/calendario_organizador.png',
+        titulo:'Calendario Organizador (En desarrollo)',
+        descripcion:'Aplicación web para organizar eventos y tareas, desarrollada con React, TailwindCSS y Firebase'
     }
 ]
 

@@ -48,7 +48,7 @@ const TextSecondary = ({ text }: { text: string }) => {
 
 const TextTertiary = ({ text }: { text: string }) => {
     return (
-        <p className='font-normal text-paragraphFont text-xs text-center sm:text-left '>
+        <p className='font-normal text-paragraphFont text-sm text-center sm:text-left '>
             {text}
         </p>
     );
@@ -80,7 +80,7 @@ const TextBlack = ({ text }: { text: string }) => {
 
 const TagEducation = ({ Text }: { Text: string }) => {
     return (
-        <span className='bg-textPrimary text-white px-2 py-1 rounded sm:text-left'>
+        <span className='bg-textPrimary text-white px-3 py-1 rounded sm:text-left'>
             {Text}
         </span>
     );

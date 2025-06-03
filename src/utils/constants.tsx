@@ -1,18 +1,21 @@
+import { Monitor, Database, LayoutDashboard } from 'lucide-react'
+
+
 const Knowledges = [
     {
         conocimiento: 'Desarrollo Front-End',
-        icono: 'line-md:computer',
-        descripcion: 'Creación de interfaces web interactivas y responsivas utilizando React, HTML5, CSS3 y JavaScript.'
+        icono: Monitor,
+        descripcion: 'Creación de interfaces web interactivas y responsivas utilizando React, HTML5, CSS3 y JavaScript.',
     },
     {
         conocimiento: 'Desarrollo Back-End',
-        icono: 'uil:database',
-        descripcion: 'Diseño y desarrollo de Rest API en SpringBoot.'
+        icono: Database,
+        descripcion: 'Diseño y desarrollo de Rest API en SpringBoot.',
     },
     {
         conocimiento: 'Diseño UX/UI',
-        icono: 'mingcute:layout-line',
-        descripcion: 'Diseño de interfaces de usuario enfocadas en la experiencia, con prototipos funcionales y mockups.'
+        icono: LayoutDashboard,
+        descripcion: 'Diseño de interfaces de usuario enfocadas en la experiencia, con prototipos funcionales y mockups.',
     },
 ]
 
@@ -32,11 +35,11 @@ const Education = [
         descripcion: 'Participé en una simulación laboral en No-Country, donde formé parte de un entorno dinámico y colaborativo que me permitió poner en práctica mis habilidades técnicas en proyectos reales.'
     },
     {
-        institucion:'Universidad de Antioquia',
-        cargo:'Finalizado',
-        anio:'Jul 2024- Dic 2024',
-        certificacion:'Monitor de desarrollo web',
-        descripcion:'Como monitor de desarrollo web, he guiado y apoyado a estudiantes en su proceso de aprendizaje de tecnologías clave como HTML, CSS, JavaScript y frameworks como React.'
+        institucion: 'Universidad de Antioquia',
+        cargo: 'Finalizado',
+        anio: 'Jul 2024- Dic 2024',
+        certificacion: 'Monitor de desarrollo web',
+        descripcion: 'Como monitor de desarrollo web, he guiado y apoyado a estudiantes en su proceso de aprendizaje de tecnologías clave como HTML, CSS, JavaScript y frameworks como React.'
     },
     {
         institucion: 'Universidad de Antioquia',
@@ -47,53 +50,60 @@ const Education = [
     },
 ]
 
-const Languages= [
+const Languages = [
     {
         lenguaje: 'Español',
-        nivel :'100%'
+        nivel: '100%'
     },
     {
         lenguaje: 'Inglés',
-        nivel:'60%'
+        nivel: '60%'
     }
 ]
 
-const Portafolio=[
+const Portafolio = [
     {
-        urlDeploy:'https://walkyshoes.vercel.app/',
-        urlRepo:'https://github.com/estebancastano/walky',
-        imagen:'/logos/walky.png',
-        titulo:'Walky',
-        descripcion:'Landing page desarrollada con Astro.js y TailwindCSS'
+        urlDeploy: 'https://walkyshoes.vercel.app/',
+        urlRepo: 'https://github.com/estebancastano/walky',
+        imagen: '/logos/walky.png',
+        titulo: 'Walky',
+        descripcion: 'Landing page desarrollada con Astro.js y TailwindCSS'
     },
     {
-        urlDeploy:'https://appamigosecreto.vercel.app/',
-        urlRepo:'https://github.com/estebancastano/amigo-secreto',
-        imagen:'/logos/amigo_secreto.png',
-        titulo:'Amigo Secreto',
-        descripcion:'Aplicación web para realizar sorteos de amigo secreto, desarrollada con HTML, CSS y JavaScript'
+        urlDeploy: 'https://appamigosecreto.vercel.app/',
+        urlRepo: 'https://github.com/estebancastano/amigo-secreto',
+        imagen: '/logos/amigo_secreto.png',
+        titulo: 'Amigo Secreto',
+        descripcion: 'Aplicación web para realizar sorteos de amigo secreto, desarrollada con HTML, CSS y JavaScript'
     },
     {
-        urlDeploy:'#',
-        urlRepo:'https://github.com/estebancastano/calendario-organizador-react',
-        imagen:'/logos/calendario_organizador.png',
-        titulo:'Calendario Organizador (En desarrollo)',
-        descripcion:'Aplicación web para organizar eventos y tareas, desarrollada con React, TailwindCSS y Firebase'
-    }
+        urlDeploy: '',
+        urlRepo: 'https://github.com/estebancastano/calendario-organizador-react',
+        imagen: '/logos/calendario_organizador.png',
+        titulo: 'Calendario Organizador (En desarrollo)',
+        descripcion: 'Aplicación web para organizar eventos y tareas, desarrollada con React, TailwindCSS y Firebase'
+    },
+    {
+        urlDeploy: '',
+        urlRepo: 'https://github.com/estebancastano/calendario-organizador-react',
+        imagen: '/logos/100_proyectos_javascript.png',
+        titulo: '100 proyectos JavaScript (En desarrollo)',
+        descripcion: 'Repositorio que contiene una colección de 100 proyectos desarrollados en JavaScript.'
+    },
 ]
 
-const ProgrammingLanguages =[
+const ProgrammingLanguages = [
     {
         lenguaje: 'Java-SpringBoot',
-        nivel :'40%'
+        nivel: '40%'
     },
     {
         lenguaje: 'React',
-        nivel:'50%'
+        nivel: '50%'
     },
     {
         lenguaje: 'TailwindCSS',
-        nivel:'60%'
+        nivel: '60%'
     }
 
 ]

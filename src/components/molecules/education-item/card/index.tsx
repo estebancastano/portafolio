@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function EducationCard({ institution, anio, certificate, description, cargo }: { institution: string, anio: string, certificate: string, description: string, cargo: string }) {
   return (
-    <div className="grid grid-cols-2 gap-4 p-4 bg-white">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 bg-white">
       {/* Parte izquierda: Institución y año */}
       <div>
         <div className="mb-2">
@@ -13,7 +13,7 @@ export default function EducationCard({ institution, anio, certificate, descript
         <div className='pb-2'>
           <TextSecondary text={cargo} />
         </div>
-        <div>
+        <div className='flex items-center justify-center md:justify-start'>
           <TagEducation Text={anio} />
         </div>
       </div>
@@ -21,7 +21,7 @@ export default function EducationCard({ institution, anio, certificate, descript
       {/* Parte derecha: Certificacion y Resumen */}
       <div>
         <div className="mb-2">
-          <TitleTertiary title={certificate} />
+          <TitleTertiary title={certificate}/>
         </div>
         <div>
           <TextSecondary text={description} />

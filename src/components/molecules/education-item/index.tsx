@@ -9,7 +9,7 @@ const index = () => {
                 <TitleSecondary title='Educación' />
             </div>
             <div className='text-center w-full max-w-auto mx-auto mt-10'>
-                <TextSecondary text='Formación enfocada en el desarrollo de habilidades técnicas y teóricas aplicadas al campo de la tecnología y desarrollo de software.'/>
+                <TextSecondary text='Formación enfocada en el desarrollo de habilidades técnicas y teóricas aplicadas al campo de la tecnología y desarrollo de software.' />
             </div>
             <div className='bg-white mt-10 p-[1cm]'>
                 {Education.map((item, index) => (
@@ -23,7 +23,7 @@ const index = () => {
                         />
                     </React.Fragment>
                 ))}
-                    </div>
+            </div>
         </div>
     )
 }

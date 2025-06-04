@@ -37,7 +37,7 @@ function PortfolioCard({
                 <div className="mb-4">
                     <TextTertiary text={descripcion} />
                 </div>
-                <div className="flex flex-col gap-2">
+                <div className="flex flex-row gap-3">
                     <div className="flex items-center gap-2">
                         <FiExternalLink className="text-textPrimary" />
                         <a

@@ -1,11 +1,14 @@
 import React from 'react'
 import TextFooter from '@/components/molecules/footer/index'
-const index = () => {
+
+const FooterWrapper = () => {
   return (
-    <div className='flex justify-center bg-white max-w-[970px] h-6 shadow-md rounded-md'>
-        <TextFooter/>
-    </div>
+    <footer className="w-full bg-zinc-900 py-6 mt-10 rounded-lg">
+      <div className="max-w-[970px] mx-auto flex justify-center items-center md:flex-row flex-col gap-4">
+        <TextFooter />
+      </div>
+    </footer>
   )
 }
 
-export default index
+export default FooterWrapper

@@ -1,4 +1,4 @@
-import { Monitor, Database, LayoutDashboard } from 'lucide-react'
+import { Monitor, Database, LayoutDashboard, Server, GitBranch, KanbanSquare } from 'lucide-react'
 
 
 const Knowledges = [
@@ -9,13 +9,28 @@ const Knowledges = [
     },
     {
         conocimiento: 'Desarrollo Back-End',
-        icono: Database,
+        icono: Server,
         descripcion: 'Diseño y desarrollo de Rest API en SpringBoot.',
+    },
+    {
+        conocimiento: 'Gestión de Bases de Datos',
+        icono: Database,
+        descripcion: 'Experiencia trabajando con MySQL y PostgreSQL. Diseño y consultas eficientes.',
+    },
+    {
+        conocimiento: 'Git & GitHub',
+        icono: GitBranch,
+        descripcion: 'Control de versiones usando Git. Flujo de trabajo con ramas, pull requests y colaboración en GitHub.',
     },
     {
         conocimiento: 'Diseño UX/UI',
         icono: LayoutDashboard,
         descripcion: 'Diseño de interfaces de usuario enfocadas en la experiencia, con prototipos funcionales y mockups.',
+    },
+    {
+        conocimiento: 'Metodologías de trabajo',
+        icono: KanbanSquare,
+        descripcion: 'Experiencia trabajando en equipo bajo metodologías ágiles como Scrum.',
     },
 ]
 

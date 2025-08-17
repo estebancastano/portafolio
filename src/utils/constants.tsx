@@ -85,6 +85,13 @@ const Portafolio = [
         descripcion: 'Landing page desarrollada con Astro.js y TailwindCSS'
     },
     {
+        urlDeploy: 'https://react-tailwindui.vercel.app/',
+        urlRepo: 'https://github.com/estebancastano/react-tailwind-ui',
+        imagen: '/logos/react_tailwind_ui.png',
+        titulo: 'React Tailwind UI',
+        descripcion: 'Repositorio que contiene una colección de componentes UI reutilizables para aplicaciones React, con TailwindCSS.'
+    },
+    {
         urlDeploy: 'https://appamigosecreto.vercel.app/',
         urlRepo: 'https://github.com/estebancastano/amigo-secreto',
         imagen: '/logos/amigo_secreto.png',
